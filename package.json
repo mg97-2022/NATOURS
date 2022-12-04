@@ -1,0 +1,24 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Learning nodejs",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mg97-2022/NATOURS.git"
+  },
+  "author": "Mohamed Gamal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mg97-2022/NATOURS/issues"
+  },
+  "homepage": "https://github.com/mg97-2022/NATOURS#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  }
+}
