@@ -13,7 +13,7 @@ if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'));
 }
 
-// middleware user to access static files in application files
+// middleware used to access static files in application files
 app.use(express.static(`${__dirname}/public`));
 
 // custom middleware
